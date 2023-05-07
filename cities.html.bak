@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRANCHES</title>
+    <link rel="shortcut icon" href="logo1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+   
+
+   </head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">WALEED.</a>
+
+        <nav class="navbar">
+            <a href="assign2.html" class="active">Home</a>
+            <a href="ustaad.html">INSPIRATIONS</a>
+            <a href="cities.html">BRANCHES</a>
+            <a href="tourists.html">CRIME LABS</a>
+            <a href="contacts.html">CONTACTS</a>
+			
+        </nav>
+        
+    </header>
+    <div class="home">
+        <div class="home-left">
+            <h2>THESE ARE SOME OF THE CITIES WE ARE CURRENTLY OPERATIONAL IN .</h2>
+            <h3>Our agents are deployed here to help me solve cases.</h3>
+            
+           <div class="btn-box">
+                <a href="#">AGENTS LIST</a>
+            </div>
+        </div>
+            
+        </div>
+    <body>
+	<div class="container-fluid py-5" id="testimonial">
+      <div class="container">
+          <div class="position-relative d-flex align-items-center justify-content-center">
+              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Cities</h1>
+
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-lg-9">
+                  <div class="owl-carousel testimonial-carousel owl-loaded owl-drag">
+
+
+                    <section class="py-5">
+                      <div class="container">
+                                         
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="city1.png"  height="500" class="card-img-top" alt="City 1">
+                              <div class="card-body">
+                                <h3 class="card-title">GOTHAM CITY </h3>
+                                <h2 class="card-text">Gotham city is in USA. Home to one of the most brilliant detectives we have our best crime fightg teams stated here .</h2>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="city2.png" height="500" class="card-img-top" alt="City 2">
+                              <div class="card-body">
+                                <h3 class="card-title">LONDON</h3>
+                                <h2 class="card-text">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city</h2>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="city3.png" height= "500" class="card-img-top" alt="City 3">
+                              <div class="card-body">
+                                <h3 class="card-title">CENTRAL CITY</h3>
+                                <h2 class="card-text">Central City is a fictional American city appearing in American comic books published by DC Comics. It is the home of the Silver Age version of the Flash, and first appeared in Showcase #4 in September–October 1956.</h2>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="city4.png" heigt="500" class="card-img-top" alt="City 4">
+                              <div class="card-body">
+                                <h3 class="card-title">BASIN CITY</h3>
+                                <h2 class="card-text">Basin City is an unincorporated community and census-designated place in Franklin County, Washington, United States. The population was 1,092 at the 2010 census, up from 968 at the 2000 census. </h2>
+                              </div>
+                            </div>
+                          </div>
+                  
+
+                      
+                        <div class="text-center mt-5">
+                          <iframe width="800" height="500" src="vid1.mp4" title="Our HEADQUARTERS"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+               </div>
+             </div> 
+           </div>    
+         </div>
+        </div>  
+      </div>      
+    </div>
+	
+	        <!-- Footer -->
+        <hr>
+        <div class="The-end">
+            
+            <div class="ce">
+                <div class="contact">
+                    <h4>MEET US AT </h4>
+                    <p>221B Baker Street, London</p>
+                    <p>BRUCEHOLMESBATMAN@gmail.com</p>
+                </div>
+        
+                <div class="email">
+                    <form action="#" method="post">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email"required>
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+            </div>
+        
+            <div class="social-media">
+                <a href="https://www.twitter.com/login"><img src="l2.png" height="100" width="100" alt="Linkedin"></a>
+                <a href="https://www.instagram.com/"><img src="l1.png" height="100" width="100" alt="Instagram"></a>
+                <a href="https://github.com/"><img src="L3.png" height="100" width="100" alt="Github"></a>
+                <a href="https://www.facebook.com/"><img src="L4.png" height="100" width="100" alt="Facebook"></a>
+            </div>
+        </div>
+	

@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto+Sans+Display;
+}
+
+body{
+    background: black;
+    color: #ededed;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: GREY;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 35px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: showRight 1s ease forwards;
+   
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+}
+
+
+.home{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home .home-left{
+    max-width: 600px;
+}
+
+.home-left h1{
+    position: relative;
+    font-size: 53px;
+    font-weight: 700;
+}
+
+.home-left h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+.home-left h3{
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-left h3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+.home-left p{
+    position: relative;
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+.home-left p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+.home-left .btn-box{
+    position: relative;
+    width: 345px;
+    height: 50px;
+    margin-top: 5%;
+}
+
+.home-left .btn-box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+    z-index: 2;
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box a:hover{
+    color: #00abf0;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+ 
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
+} 
+
+.btn-box a:hover::before{
+    width: 100%;
+}
+
+.home-right{
+    width: 200%;
+    height: 50%;
+	background-image: url('det2.jpg');
+    background-repeat: no-repeat;
+
+	
+}
+
+.home-right::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10;
+    width: 100%;
+    height: 300%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    z-index: 2;
+}
+
+/* SPECIALIZATIONS ------------------------*/
+
+
+.skills .heading h3{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 2.5px;
+    color: white;
+}
+
+
+/* Six Section */
+
+.six-center{
+    padding: 12px 0 0 12px;
+}
+
+/* Section 1 */
+
+.six-center .sec1{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.six-center .sec1 .img{
+    position: relative;
+    padding-left: 15%;
+    text-align: center;
+}
+
+.six-center .sec1 .left1{
+    position: relative;
+    padding-top: 6%;
+    padding-left: 38%;
+}
+
+.six-center .sec1 .left1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+
+/* Section 2 */
+
+.six-center .sec2{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.six-center .sec2 .img{
+    padding-left: 30%;
+    text-align: center;
+}
+
+.six-center .sec2 .left1{
+    padding-top: 6%;
+    padding-left: 40%;
+}
+
+.six-center .sec2 .left1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+
+/* Section 3 */
+
+.six-center .sec3{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.six-center .sec3 .img{
+    padding-left: 30%;
+    text-align: center;
+}
+
+.six-center .sec3 .left1{
+    padding-top: 6%;
+    padding-left: 40%;
+}
+
+.six-center .sec3 .left1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+
+/* Section 4 */
+
+.six-center .sec4{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.six-center .sec4 .img{
+    padding-left: 15%;
+    text-align: center;
+}
+
+.six-center .sec4 .left1{
+    padding-top: 6%;
+    padding-left: 40%;
+}
+
+.six-center .sec4 .left1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+
+/* Section 5 */
+
+.six-center .sec5{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.six-center .sec5 .img{
+    padding-left: 30%;
+    text-align: center;
+}
+
+.six-center .sec5 .left1{
+    padding-top: 6%;
+    padding-left: 40%;
+}
+
+.six-center .sec5 .left1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+
+/* Section 6 */
+
+.six-center .sec6{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.six-center .sec6 .img{
+    padding-left: 30%;
+    text-align: center;
+}
+
+.six-center .sec6 .left1{
+    padding-top: 6%;
+    padding-left: 38%;
+}
+
+.six-center .sec6 .left1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    
+}
+
+/* Skills */
+
+.wrapper{
+    width: 50%;
+    min-width: 570px;
+    position: relative;
+    left: 26%;
+}
+.container{
+    width: 100%;
+    padding: 30px 50px 50px;
+    background-color: #081b29;
+    backdrop-filter: blur(10px);
+} 
+
+.container h3{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.bar{
+    position: relative;
+    border: 2px solid #0d96e0;
+    border-radius: 20px;
+}
+.bar div{
+    position: relative;
+    width: 10;
+    height: 13px;
+    border-radius: 10px;
+    background-color:white;
+}
+
+
+
+
+/* Footer */
+
+.The-end{
+    background-color: #081b29;
+    padding-bottom: 6%;
+}
+
+.footer{
+    padding-top: 5%;
+    color: #ededed;
+    margin-top: 55px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo a{
+    margin: 0 0.8rem;
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: #ededed;
+    padding-right: 25rem;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    
+    
+}
+
+.The-end .navbar a{
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color: #ededed;
+}
+
+.The-end .navbar a:hover{
+    text-transform: inherit;
+    text-decoration-color: #00abf0;
+    border-radius: 20%;
+    background-color: #00abf0;
+}
+
+.The-end .ce{
+    display: flex;
+}
+
+.The-end .contact{
+    padding-left: 11rem;
+    padding-top: 6%;
+    color: #ededed;
+}
+
+.The-end .email{
+    width: 100vw;
+    padding-top: 6%;
+    padding-left: 20rem;
+}
+
+.The-end .contact h4{
+    padding-bottom: 2%;
+}
+
+
+.email input[type=submit]{
+    background-color: #00abf0;
+    color: #ededed;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.email input[type=email]{
+    padding: 7px 105px;
+}
+
+.email label[for=email]{
+    color: #ededed;
+}
+
+.social-media{
+    display: flex;
+    padding-top: 6%;
+    padding-left: 9rem;
+}
+
+.social-media a{
+    padding-left: 2%;
+}
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#Cpp-bar{
+    animation: Cpp-fill 2s forwards;
+}
+@keyframes Cpp-fill {
+    100%{
+        width: 72%;
+    }
+}
+#Python-bar{
+    animation: Python-fill 2s forwards;
+}
+@keyframes Python-fill{
+    100%{
+        width: 58%;
+    }
+} 
+
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
+}
+
+/*------------------------------------------------------    ustaaadd  ------------------------------------------------------------ */
+
+.banner{
+    width: 100%;
+    height: 46vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner .banner-text{
+    padding-top: 5%;
+}
+
+.banner-text h1{
+    padding-bottom: 5%;
+    letter-spacing: 1.3px;
+    font-size: 250%;
+    color: white;
+}
+
+.banner-text p{
+    margin-top: -4%;
+    font-size: 130%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+
+/* Three DABBY */
+
+
+.three-section{ 
+    padding-top: -2%; 
+    width: 200%;
+    background-color: transparent; 
+}
+
+.three-center{
+    max-width: 9000px;
+    margin: auto;
+}
+
+
+
+.three-center .box3{
+    width: 39%;
+    margin: 1%;
+    position: right;
+    top: -70px;
+    padding-bottom: 3%;
+    /* background-color: #fff; */
+    float: none;
+    /* box-shadow: 1px 1px 20px 1px #ff1a1a; */
+}
+
+
+.three-center .box3{
+    background-color:  #262626;
+    color: white;
+}
+
+.three-center .box3 img{
+    padding-top: 0px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.three-center .box3 .left2{
+    padding-left: 10px;
+}
+
+.three-center .box3 .left2 h3{
+    color: #ff1a1a;
+}
+
+.three-center .box3 .mid2{
+    padding: 15px;
+    text-align: justify;
+}
+
+.three-center .box3 .mid2 p{
+    color: #ff1a1a;
+    
+}
+
+/* ----------------------------------------------------         contact ------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2F4F4F;
+    font-family: Raleway;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    margin-right: 10px;
+    color: crimson;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    color: crimson;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+label{
+    color: red;
+}
+
+
+
